@@ -1,11 +1,14 @@
 # FeedForwardNN_With_NumPy
 A FFNN, made only with NumPy, to recognise numbers from the MNIST data set.
 
-# Info
+# Description
 This is a MultiLayer Perceptron (MLP), where the number of layers can be decided by the user.
 
 This FFNN is just for educational purposes and is ***not*** optimized.
 Some important issues with this network are memory management, local minimums and vanishing gradients.
+
+# Dependencies
+The following Python libraries are required:
 
 # Setup
 Just follow the instructions in Setup_Instructions.txt file in order to obtain the MNIST data set.
