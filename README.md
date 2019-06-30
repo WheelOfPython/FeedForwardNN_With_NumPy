@@ -8,7 +8,7 @@ This FFNN is just for educational purposes and is ***not*** optimized.
 Some important issues with this network are memory management, local minimums and vanishing gradients.
 
 # Setup
-Just follow the instructions in Setup.txt file in order to obtain the MNIST data set.
+Just follow the instructions in Setup_Instructions.txt file in order to obtain the MNIST data set.
 
 # Getting Started With Neural Networks
 Here are some YouTube videos for understanding neural networks and the mathematics involved:
