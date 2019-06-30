@@ -30,8 +30,8 @@ and download these files:
 
 Extract them into your working directory
 
-Make a folder named x_train and put inside the extracted train-images.idx3-ubyte
-Make a folder named y_train and put inside the extracted train-labels.idx3-ubyte
+Create a folder named x_train and put inside the extracted train-images.idx3-ubyte
+Create a folder named y_train and put inside the extracted train-labels.idx3-ubyte
 
 !Make sure the form of the extracted files is .idx3-ubyte and not -idx3-ubyte
 
