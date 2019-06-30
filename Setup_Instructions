@@ -15,8 +15,9 @@ and download these files:
 	train-images-idx3-ubyte.gz:  training set images (9912422 bytes) 
 	train-labels-idx1-ubyte.gz:  training set labels (28881 bytes) 
 
-Extract them into your working directory
+Extract them into your working directory, which is the folder that contains the .py files
 
+In your working directory:
 Create a folder named x_train and put inside the extracted train-images.idx3-ubyte
 Create a folder named y_train and put inside the extracted train-labels.idx3-ubyte
 
