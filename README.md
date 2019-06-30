@@ -8,7 +8,17 @@ This FFNN is just for educational purposes and is ***not*** optimized.
 Some important issues with this network are memory management, local minimums and vanishing gradients.
 
 # Dependencies
+Python 3.7
+
 The following Python libraries are required:
+
+Numpy
+  
+Matplotlib
+  
+Pandas
+
+Optional: Use Anaconda envirment with Spyder IDE
 
 # Setup
 Just follow the instructions in Setup_Instructions.txt file in order to obtain the MNIST data set.
