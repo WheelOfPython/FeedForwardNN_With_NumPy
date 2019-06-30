@@ -8,16 +8,11 @@ This FFNN is just for educational purposes and is ***not*** optimized.
 Some important issues with this network are memory management, local minimums and vanishing gradients.
 
 # Dependencies
-Python 3.7
-
+[![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370) 
 The following Python libraries are required:
-
-Numpy
-  
-Matplotlib
-  
-Pandas
-
+1. Numpy
+2. Matplotlib
+3. Pandas
 Optional: Use Anaconda envirment with Spyder IDE
 
 # Setup
