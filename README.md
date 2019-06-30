@@ -15,7 +15,7 @@ The following Python libraries are required:
 2. Matplotlib
 3. Pandas
 
-Optional: Use Anaconda envirment with Spyder IDE
+Optional: Use Anaconda environment with Spyder IDE
 
 # Setup
 Just follow the instructions in Setup_Instructions.txt file in order to obtain the MNIST data set.
