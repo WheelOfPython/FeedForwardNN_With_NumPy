@@ -1,12 +1,6 @@
-						---FeedForwardNN_With_NumPy---
-Recuirments:
-	Python 3
-	Numpy
-	Matplotlib
-	Pandas
-Optional: Use Anaconda envirment with Spyder IDE
-
+---FeedForwardNN_With_NumPy---
 SetUp:
+
 0)Download the Git files and put them inside a new folder, that will be your working directory
 
 1)Go to this website:
