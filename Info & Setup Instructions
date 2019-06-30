@@ -1,0 +1,45 @@
+---FeedForwardNN_With_NumPy---
+
+This is a MultiLayer Perceptron (MLP), where the number of layers can be decided by the user.
+
+This FFNN is just for educational purposes and is not optimized.
+Some important issues with this network are memory management, local minimums and vanishing gradients.
+
+
+YouTube Videos for understanding neural nets and the maths involved:
+	Beginner Intro to Neural Networks 1: Data and Graphing [giant_neural_network]: https://www.youtube.com/watch?v=ZzWaow1Rvho
+	But what *is* a Neural Network? | Deep learning, chapter 1 [3Blue1Brown]: https://www.youtube.com/watch?v=aircAruvnKk
+	Create a Simple Neural Network in Python from Scratch [Polycode]: https://www.youtube.com/watch?v=kft1AJ9WVDk
+	Neural Networks Demystified [Welch Labs]: https://www.youtube.com/watch?v=bxe2T-V8XRs
+
+
+Recuirments:
+	Python 3
+	Numpy
+	Matplotlib
+	Pandas
+Optional: Use Anaconda envirment with Spyder IDE
+
+SetUp:
+
+0)Download the Git files and put them inside a new folder, that will be your working directory
+
+1)Go to this website:
+	http://yann.lecun.com/exdb/mnist/
+and download these files:
+	train-images-idx3-ubyte.gz:  training set images (9912422 bytes) 
+	train-labels-idx1-ubyte.gz:  training set labels (28881 bytes) 
+
+Extract them into your working directory
+
+Make a folder named x_train and put inside the extracted train-images.idx3-ubyte
+Make a folder named y_train and put inside the extracted train-labels.idx3-ubyte
+
+!Make sure the form of the extracted files is .idx3-ubyte and not -idx3-ubyte
+
+2)Install mlxtend with:
+pip install mlxtend
+
+3)Run load_mnist.py
+
+4)The created folders now contain csv files of MNIST!
