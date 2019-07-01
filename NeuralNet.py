@@ -72,7 +72,7 @@ class NeuralNetwork():
         
         s=0.0
         for row in range(len(m)):
-            if set(m[row]) == set(outpt[row]):
+            if len(m[row])== len(outpt[row]) and len(m[row]) == sum([1 for i, j in zip(m[row], outpt[row]) if i == j]): 
                 s+=1
         print('Correct: ', int(s), '/', len(m))
         print('Accuracy: ', s/len(m) * 100, '%')
@@ -138,8 +138,8 @@ nn.Train()
 
 
 #--------------Make & Predict Sample----------------
-mnist_x_sample_raw = np.array(mnist_x_raw[300:500])
-mnist_y_sample_raw = mnist_y_raw[300:500]
+mnist_x_sample_raw = np.array(mnist_x_raw[:200])
+mnist_y_sample_raw = mnist_y_raw[:200]
 mnist_x_sample = mnist_x_sample_raw/255
 mnist_y_sample = np.zeros((mnist_y_sample_raw.shape[0], 10))
 for i in range(mnist_y_sample.shape[0]):
